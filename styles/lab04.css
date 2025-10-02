@@ -1,0 +1,65 @@
+/*
+
+filename: Nguyen Dac Nhat Quang
+
+author: Nguyen Dac Nhat Quang
+
+created: 02/10/2025
+
+last modified: 02/10/2025
+
+description: CSS style for lab05.html
+
+*/
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+    }
+*{font-family: calibri, sans-serif;}
+
+*{color:#2F4F4F;} 
+/* The color of h1 is still purple*/
+
+h2 {
+    color: rgb(0,128,128);
+    font-weight: bold;
+    font-size: 1.5em;
+    }
+
+ aside, footer { font-style: italic; }
+
+ h1, h2, h3 {font-family: arial, sans-serief;}
+
+ table, thead, td { border: 1px solid black;}
+
+ #images {
+    text-align: center;
+}
+#head {
+    color: red;
+}
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+.month {
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+ol ul {
+    list-style-type: square;
+}
+
+aside:hover {
+    display: none;
+}
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
